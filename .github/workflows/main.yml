@@ -43,7 +43,7 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             laysveloso/api-bootcamp-produto:latest
             laysveloso/api-bootcamp-produto:${{github.run_number}}
       
